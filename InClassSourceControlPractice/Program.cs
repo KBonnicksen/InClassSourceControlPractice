@@ -6,7 +6,9 @@ namespace InClassSourceControlPractice
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World");
+            Console.WriteLine("Hello there!\nWhat is your favorite primary color?");
+
+            String favoriteColor = Console.ReadLine();
         }
     }
 }
